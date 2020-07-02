@@ -1,0 +1,54 @@
+<app-exchange-rate></app-exchange-rate>
+
+<main class="form-main">
+    <h3>Register</h3>
+    <form [formGroup]="purchaseFormGroup" class="form-form" #formDirective="ngForm">
+
+        <!-- User -->
+        <mat-form-field class="example-full-width">
+            <input matInput #userId placeholder="User" formControlName="userId">
+            <mat-hint>
+                User Id will not be validate. It can exist or not.
+            </mat-hint>
+            <mat-error>
+                {{ formErrors['userId'] }}
+            </mat-error>
+        </mat-form-field>
+
+        <!-- Amount -->
+        <mat-form-field class="example-full-width">
+            <input matInput appCurrency placeholder="Amount" formControlName="amount">
+            <mat-hint>
+                Amount will automatically format to the selected currency.
+            </mat-hint>
+            <mat-error>
+                {{ formErrors['amount'] }}
+            </mat-error>
+        </mat-form-field>
+
+        <!-- Currency -->
+        <mat-form-field class="example-full-width">
+            <mat-label>Currency</mat-label>
+            <mat-select formControlName="currency">
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let currency of currencyArray" [value]="currency.value">
+                    {{currency.viewValue}}
+                </mat-option>
+            </mat-select>
+            <mat-hint>
+                Availables currencies.
+            </mat-hint>
+            <mat-error>
+                {{ formErrors['currency'] }}
+            </mat-error>
+        </mat-form-field>
+
+        <!-- Submit -->
+        <div class="form-button-row">
+            <button mat-raised-button [disabled]="!purchaseFormGroup.valid" (click)="purchase();"
+                color="primary">Purchase</button>
+
+            <button mat-raised-button [routerLink]="['/home']" color="primary">Back</button>
+        </div>
+    </form>
+</main>

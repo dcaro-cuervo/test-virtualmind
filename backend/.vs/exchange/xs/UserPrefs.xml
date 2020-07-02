@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{047CCFD6-1630-4B91-BC21-DCECED35635B}|Default">
+  <MonoDevelop.Ide.ItemProperties.exchange PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="exchange/Controllers/PurchasesController.cs">
+    <Files>
+      <File FileName="exchange/Controllers/ExchangeController.cs" Line="102" Column="99" />
+      <File FileName="exchange/Startup.cs" Line="43" Column="34" />
+      <File FileName="exchange/Controllers/ErrorController.cs" Line="16" Column="18" />
+      <File FileName="exchange/Controllers/PurchasesController.cs" Line="108" Column="107" />
+      <File FileName="exchange/Services/PurchaseService.cs" Line="43" Column="9" />
+      <File FileName="exchange/Controllers/ValuesController.cs" Line="7" Column="11" />
+      <File FileName="exchange/Properties/launchSettings.json" Line="28" Column="1" />
+      <File FileName="exchange.Tests/appsettings.json" Line="6" Column="4" />
+      <File FileName="exchange.Tests/ExchangeControllerTest.cs" Line="70" Column="1" />
+      <File FileName="exchange.Tests/PurchaseControllerTest.cs" Line="23" Column="1" />
+      <File FileName="exchange/Models/Purchase.cs" Line="25" Column="58" />
+      <File FileName="exchange/Extensions/ServiceExtensions.cs" Line="10" Column="28" />
+      <File FileName="exchange/Controllers/TestController.cs" Line="32" Column="56" />
+      <File FileName="exchange/nlog.config" Line="10" Column="23" />
+      <File FileName="exchange/Models/PurchaseCurrencyDatabaseSettings.cs" Line="1" Column="1" />
+      <File FileName="exchange/appsettings.json" Line="1" Column="1" />
+      <File FileName="exchange/Models/PurchaseDto.cs" Line="16" Column="58" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="exchange" expanded="True">
+            <Node name="LoggerService" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.exchange.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/turko/Projects/exchange/backend/exchange/Controllers/PurchasesController.cs" relfile="exchange/Controllers/PurchasesController.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
